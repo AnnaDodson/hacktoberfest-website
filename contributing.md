@@ -26,7 +26,7 @@ Make sure you have your keys set up before continuing.
 Next, open a terminal wherever you want the project directory to be and run:
 
 ```
-$ git clone https://github.com/<your-username-goes-here>/annadodson.github.io-hacktoberfest-website.git
+$ git clone https://github.com/<your-username-goes-here>/hacktoberfest-website/
 ```
 
 Replace the URL with your own repository URL path. If you're not sure what it is, go to GitHub where you forked the project and check your repository home page for the full URL.
@@ -34,13 +34,13 @@ Replace the URL with your own repository URL path. If you're not sure what it is
 Once that's cloned, cd into the new project:
 
 ```
-$ cd annadodson.github.io-hacktoberfest-website.git
+$ cd hacktoberfest-website/
 ```
 
 To make sure your fork knows which is the upstream repository, run:
 
 ```
-$ git remote add upstream https://github.com/AnnaDodson/annadodson.github.io-hacktoberfest-website.git
+$ git remote add upstream git@github.com:AnnaDodson/hacktoberfest-website.git
 ```
 
 This means if there are any changes to the main branch you can get them by running the following:
@@ -73,7 +73,7 @@ $ git checkout -b post/my-blog-post
 Woohoo, you're all ready! Follow the instructions in the README to get the site up and running locally.
 
 ## Adding a Blog Post
-To add a post, create a file under the `_posts/` directory. Name the file with the date and title like so:
+To add a post, create a file under the `_posts/` directory. Name the file with the date and title like so `YYYY-MM-DD-title`:
 
 ```
 _posts/2018-10-01-my-epic-post-title.md
@@ -201,7 +201,7 @@ When you're happy and ready to commit (check you're on the right branch first!),
 [four-post]: repo-images/four-post.png "Add writting or images"
 [five-commit]: repo-images/five-commit.png "Add commit message"
 
-Once all your files have been committed, raise a PR against the [main repo](https://github.com/AnnaDodson/annadodson.github.io-hacktoberfest-website)! You should see a flag appear in your fork about raising a PR - click that and follow the instructions. Don't forget to add a good message explaining what you have done in your merge. [More details here](https://help.github.com/articles/creating-a-pull-request/)
+Once all your files have been committed, raise a PR against the [main repo](https://github.com/AnnaDodson/hacktoberfest-website)! You should see a flag appear in your fork about raising a PR - click that and follow the instructions. Don't forget to add a good message explaining what you have done in your merge. [More details here](https://help.github.com/articles/creating-a-pull-request/)
 
 
 ### Jekyll Theme
