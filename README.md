@@ -1,4 +1,4 @@
-# Hacktobesfest Website
+# Hacktoberfest Website
 
 This website is a community website for everyone to be able to contribute to. Tech should be accessible to everyone and everyone should be included in the making of it. This site aims to help break down barriers and allow people to contribute to a project with whatever skills they have.
 
