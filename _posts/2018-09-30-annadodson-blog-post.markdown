@@ -2,6 +2,7 @@
 layout: post
 title:  "It takes a village"
 date:   2018-10-02 14:01:10 +0100
+author: anna_dodson
 categories: contributing community blog
 ---
 
