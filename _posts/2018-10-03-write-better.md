@@ -2,8 +2,7 @@
 layout: post
 title:  "Write Better!"
 date:   2018-10-03 10:01:10 +0100
-author: "Will Ellwood"
-author-link: "www.will-ellwood.com"
+author: will_ellwood
 categories: community contributions
 ---
 
