@@ -7,7 +7,7 @@ categories: community contributions
 
 Writing prose is not exactly like writing code. However there are similarities since both activities are primarily about editing existing material, but in the composition they are different. When writing prose there is an advantage to freewriting, by simply letting a pen slide across the page from one word to one sentence to one paragraph with little conscious thought. With freewriting the author is growing a tree which can be carved into the story they wish to tell. 
 
-I don’t think I need to write about how badly writing code without deliberate though generally goes. 
+I don’t need to write about how badly writing code without deliberate thought generally goes. 
 
 What unites both activities is a need for structure. These structures are learned by novices and implemented by journeymen before being developed by experts. In writing software, we have the cocept borrowed from architecture called design patterns, but we can also think of the standard algorithms and data structures we reach for in solving problems as part of the category of learned structures. In prose there are archetypes, rhetorical devices, and dramatic structures. And stories, all texts, tend to have beginnings, middles, and ends. These also have different lengths. (The middle bit of a film is longer proportionallly than the start and the end.) There is also a directed flow of information. 
 
