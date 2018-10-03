@@ -38,8 +38,8 @@ For Ubuntu / Debian-based distributions:
 
 Now that Ruby is installed, installing Jekyll (and other gems) should be platform agnostic.
 
-- you may need to run commands prefixed by `sudo` on non-Windows environments.
-- You may need to logout / restart your terminal window to refresh paths.
+- :information_source: you may need to run commands prefixed by `sudo` on non-Windows environments.
+- :information_source: You may need to logout / restart your terminal window to refresh paths.
 
 Install **Jekyll** as follows, from a terminal window:
 
