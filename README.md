@@ -2,15 +2,45 @@
 
 This website is a community website for everyone to be able to contribute to. Tech should be accessible to everyone and everyone should be included in the making of it. This site aims to help break down barriers and allow people to contribute to a project with whatever skills they have.
 
-## How to contribute
+# How to contribute
 
 You can contribute through the browser or from your favourite terminal. Go the [contributing guide](/contributing.md) to learn how.
 
-## Getting The Site Running Locally
+# Getting The Site Running
 
 The site is built using [Jekyll](https://jekyllrb.com), a Ruby application, or **Gem**.
 
-As such, you'll need Ruby installed (version `2.3.3` or newer).
+As such, you'll need a way to run Jekyll, to build and serve the site while you work on it.
+
+The options for this are as follows:
+
+- Run Jekyll in Docker
+- Run Jekyll on your local machine
+
+The sections below cover these options.
+
+## Run Jekyll in Docker
+
+You'll need to install Docker on your operating system.
+
+- For **Mac** and **Windows**, install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- For **Linux**, install [Docker Engine Community Edition](https://store.docker.com/search?type=edition&offering=community)
+
+:information_source: Ensure when you install that you are using **Linux containers**, not Windows ones (even if you're installing on Windows).
+
+Once docker is installed, simply go to the root of the project folder in a terminal window, and run:
+
+`docker-compose up`
+
+The local site can be reached here: [http://localhost:4000/](http://localhost:4000/)
+
+It will respond automatically to changes you make to the source; just refresh the page in the browser to see changes.
+
+Well done, you're up and running! :tada:
+
+## Run Jekyll Locally
+
+you'll need Ruby installed (version `2.3.3` or newer).
 
 This guide does include steps for installing Ruby, and other Jekyll dependencies, but you can always refer to Jekyll's own guide [here](https://jekyllrb.com/docs/installation/).
 
