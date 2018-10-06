@@ -24,7 +24,9 @@ The sections below cover these options.
 You'll need to install Docker on your operating system.
 
 - For **Mac** and **Windows**, install [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- For **Linux**, install [Docker Engine Community Edition](https://store.docker.com/search?type=edition&offering=community)
+- For **Linux**:
+    - Install [Docker Engine Community Edition](https://store.docker.com/search?type=edition&offering=community)
+    - Also ensure you have [`docker-compose` installed](https://docs.docker.com/compose/install/)
 
 :information_source: Ensure when you install that you are using **Linux containers**, not Windows ones (even if you're installing on Windows).
 
