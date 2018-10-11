@@ -1,5 +1,34 @@
 <ul class="social-media-list">
-    <li><a href="https://github.com/search?q=label:hacktoberfest+state:open+type:issue"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">hacktoberfest</span></a></li>
-    <li><a href="https://github.com/AnnaDodson/hacktoberfest-website"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">this website</span></a></li>
-    {%- if site.twitter_username -%}<li><a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ site.twitter_username| escape }}</span></a></li>{%- endif -%}
-  </ul>
+  <li>
+    <a href="https://github.com/search?q=label:hacktoberfest+state:open+type:issue">
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+      </svg>   
+      <span class="username">hacktoberfest</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/AnnaDodson/hacktoberfest-website">
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+      </svg>
+      <span class="username">this website</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.digitalocean.com">
+      <object data="/images/digital-ocean-brands.svg" type="image/svg+xml" class="svg-icon"></object>
+      <span class="username">DigitalOcean</span>
+    </a>
+  </li>
+  {%- if site.twitter_username -%}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+      </svg>
+      <span class="username">{{ site.twitter_username| escape }}</span>
+    </a>
+  </li>
+  {%- endif -%}
+</ul>
