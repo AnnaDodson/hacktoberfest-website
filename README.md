@@ -22,6 +22,8 @@ As long as you:
 - Distribute any changes you make under the same license.
 - Don't add any additional restrictions outside of what the license already disallows.
 
+You can find some more information about the license [here](https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)).
+
 # Getting The Site Running
 
 The site is built using [Jekyll](https://jekyllrb.com), a Ruby application, or **Gem**.
