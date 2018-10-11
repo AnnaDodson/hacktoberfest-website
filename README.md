@@ -6,6 +6,24 @@ This website is a community website for everyone to be able to contribute to. Te
 
 You can contribute through the browser or from your favourite terminal. Go the [contributing guide](/contributing.md) to learn how.
 
+# About our license
+
+All content in this repository is licensed under a Creative Commons license, specifically CC BY-NC-SA 4.0. 
+
+This means you can:
+
+- Share it in any format or medium
+- Adapt it by changing or building upon it
+
+As long as you:
+
+- Attribute your adaptation to their original creator(s).
+- Don't use any of the material commercially.
+- Distribute any changes you make under the same license.
+- Don't add any additional restrictions outside of what the license already disallows.
+
+You can find some more information about the license [here](https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)).
+
 # Getting The Site Running
 
 The site is built using [Jekyll](https://jekyllrb.com), a Ruby application, or **Gem**.
