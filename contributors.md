@@ -4,7 +4,7 @@ title: Contributors
 permalink: /contributors/
 ---
 
-This page holds a list of all the lovely contributors to the site :)
+This page holds a list of all the lovely contributors to the site 🙃
 
 <section>
 {% for contributor in site.github.contributors %}
