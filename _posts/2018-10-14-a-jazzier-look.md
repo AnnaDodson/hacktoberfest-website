@@ -11,11 +11,8 @@ I've been meaning to write this post since *forever* but knowing just how to beg
 
 So, looking at solving the tiny issue #13 of a 'jazzier homepage' was my aim and it's been a rather fun issue to tackle. Here are some fancy-schmancy looking pictures first with the talking (writing?) left for after:
 
-<div align="center">
-<img src="/images/hacktoberfest-banner-orange.png" /> 
-<img src="/images/ghostz.png" /> 
-<img src="/images/hacktoberfest-banner-black.png" /> 
+<img src="/images/hacktoberfest-banner-black.png"/> 
+<img src="/images/ghostz.png"/> 
+<img src="/images/hacktoberfest-banner-orange.png"/> 
 
-</div>
-[help](/images/ghostz.png)
 
