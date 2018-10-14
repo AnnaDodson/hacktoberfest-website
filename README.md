@@ -6,6 +6,24 @@ This website is a community website for everyone to be able to contribute to. Te
 
 You can contribute through the browser or from your favourite terminal. Go the [contributing guide](/contributing.md) to learn how.
 
+# About our license
+
+All content in this repository is licensed under a Creative Commons license, specifically CC BY-NC-SA 4.0. 
+
+This means you can:
+
+- Share it in any format or medium
+- Adapt it by changing or building upon it
+
+As long as you:
+
+- Attribute your adaptation to their original creator(s).
+- Don't use any of the material commercially.
+- Distribute any changes you make under the same license.
+- Don't add any additional restrictions outside of what the license already disallows.
+
+You can find some more information about the license [here](https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)).
+
 # Getting The Site Running
 
 The site is built using [Jekyll](https://jekyllrb.com), a Ruby application, or **Gem**.
@@ -59,6 +77,24 @@ To install Ruby on Windows, you can
 - Download it from [RubyInstaller](https://rubyinstaller.org)
     1. Download **Ruby + Devkit**
     1. Run the installer
+
+#### Mac OS X
+
+OS X comes with many open source packages pre-installed, including Ruby. To check your version of ruby, open a terminal and run `$ ruby -v`
+
+You should get some output like this, denoting version `2.3.7`:
+```
+ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+```
+
+If your version is `2.3.3` or greater, you do not need to install ruby; you can move on to [Instaling Jekyll](#installing-jekyll).
+
+Otherwise, you will need to upgrade ruby. The easiest way is to use `rvm`. In the terminal, run the following commands:
+- `$ curl -sSL https://get.rvm.io | bash -s stable --ruby`
+- `$ rvm install 2.3`
+- `$ rvm use 2.3 --default`
+
+Restart your terminal and check the ruby version using `> ruby -v`
 
 #### Linux / Windows Subsystem for Linux
 
