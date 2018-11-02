@@ -1,0 +1,65 @@
+---
+---
+
+@import "minima";
+
+// Define defaults for each variable.
+$orange:      #D93B26 !default;
+
+/**
+ * Fonts
+ */
+@font-face {
+  font-family: "spooky";
+  src: url("/fonts/Ghostz.ttf") format('truetype');
+}
+
+
+body{
+  background: #1D1D1D;
+  color: white;
+}
+
+
+/**
+ * Site header
+ */
+.site-header{
+  background-color: #D93B26;
+  background-image: url("/images/header.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  min-height: 300px;
+}
+
+
+/**
+ * Posts
+ */
+.post-list {
+  font-family: "spooky";
+  a {color: white;}
+}
+
+.post-content {
+  font-family: "Letter Gothic Std";
+  h2 {font-family: "spooky";}
+}
+
+code{
+  color: #1D1D1D;
+}
+
+
+/**
+ * Links
+ */
+ a {
+   
+  &:hover {
+    color: $orange;
+  }
+
+}
