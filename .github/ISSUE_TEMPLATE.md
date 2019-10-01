@@ -6,8 +6,8 @@
 
 **Is this issue a feature request or a bug report?**
 
-[ ] Feature
-[ ] Bug
+- [ ] Feature
+- [ ] Bug
 
 
 **What is the expected behaviour/what feature are you proposing?**
