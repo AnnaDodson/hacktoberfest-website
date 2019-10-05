@@ -97,3 +97,73 @@ code{
       }
     }
 }
+
+
+/**
+ * Events page
+ */
+.event {
+	display: flex;
+	transition: 150ms;
+	flex-flow: row wrap;
+	margin: 50px 0;
+
+	&:hover {
+		text-decoration: none;
+		
+		.event_date {
+			background-color: #D93B26;
+			color:  #cccccc;
+		}
+
+		.event_description {
+			text-decoration: underline;
+		}
+	}
+}
+
+.event--done {
+	text-decoration: line-through;
+	opacity: 0.5;
+
+	&:hover {
+		text-decoration: line-through;
+	}
+}
+
+.event_date {
+	background-color: #cccccc;
+	color: #D93B26;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	position: relative;
+	text-align: center;
+	transition: 150ms;
+	display: inline-block;
+}
+
+.event_date--value {
+	margin-bottom: 50px;
+	line-height: 80px;
+	font-weight: 600;
+	font-size: 20px;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.event_title {
+	display: inline-block;
+	align-self: center;
+	margin: 0 0 0 20px;
+	text-decoration: underline;
+	color: #cccccc;
+}
+
+.event_description {
+	flex-wrap: nowrap;
+	color: #cccccc;
+	padding: 20px 0 0 40px;
+}
