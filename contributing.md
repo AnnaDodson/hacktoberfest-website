@@ -79,7 +79,21 @@ To add a post, create a file under the `_posts/` directory. Name the file with t
 _posts/2018-10-01-my-epic-post-title.md
 ```
 
-This is a markdown file so you can use markdown syntax. You can also add HTML tags too.
+Before writing the post, ensure your author details are added to the authors database at `_data/authors.yml`. Copy the
+block below (be sure to preserve indentation - it's important in YAML) and edit the details. The key should be in the
+format firstname_lastname with any special characters removed. The 'name' property is required, and can be enclosed in
+"quotes" if non-alphanumeric characters are included, and the 'web' property is optional, and can be used to link to
+wherever you like.
+
+The file is designed for future expansion and more details being added to the authors if required in the future.
+
+```
+ada_lovelace:
+    name: "Ada Lovelace"
+    web: https://www.github.com
+```
+
+Back to the post itself! This is a markdown file so you can use markdown syntax. You can also add HTML tags too.
 
 In the file, make sure to include all your posts details:
 
@@ -88,6 +102,7 @@ In the file, make sure to include all your posts details:
 layout: post
 title:  "My Epic Post Title"
 date:   2018-10-01 14:01:10 +0100
+author: ada_lovelace
 categories: community contributions
 ---
 ```

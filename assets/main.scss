@@ -1,0 +1,169 @@
+---
+---
+
+@import "minima";
+
+// Define defaults for each variable.
+$orange:      #D93B26 !default;
+
+/**
+ * Fonts
+ */
+@font-face {
+  font-family: "spooky";
+  src: url("/fonts/Ghostz.ttf") format('truetype');
+}
+
+
+body{
+  background: #1D1D1D;
+  color: white;
+}
+
+
+/**
+ * Site header
+ */
+.site-header{
+  background-color: #D93B26;
+  background-image: url("/images/header.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  min-height: 300px;
+}
+
+
+/**
+ * Posts
+ */
+.post-list {
+  font-family: "spooky";
+  a {color: white;}
+}
+
+.post-content {
+  font-family: "Letter Gothic Std";
+  h2 {font-family: "spooky";}
+}
+
+code{
+  color: #1D1D1D;
+}
+
+
+/**
+ * Links
+ */
+ a {
+   
+  &:hover {
+    color: $orange;
+  }
+
+}
+
+/**
+* Contributors grid 
+* 
+**/ 
+.contributors_grid {
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8em, 1fr));
+    grid-gap:5%;
+    align-items: stretch;
+    justify-items: center;
+    .contributor {
+      text-align: center;
+      padding: 1em;
+      img {
+        border:solid 1px #cccccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        display: block;
+        margin: auto;
+      }
+      a {
+        color: #cccccc;
+        text-transform: uppercase;
+        font-size: 0.75em;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        min-width: 150px;
+        overflow: hidden;
+        margin-top: 1em;
+      }
+    }
+}
+
+
+/**
+ * Events page
+ */
+.event {
+	display: flex;
+	transition: 150ms;
+	flex-flow: row wrap;
+	margin: 50px 0;
+
+	&:hover {
+		text-decoration: none;
+		
+		.event_date {
+			background-color: #D93B26;
+			color:  #cccccc;
+		}
+
+		.event_description {
+			text-decoration: underline;
+		}
+	}
+}
+
+.event--done {
+	text-decoration: line-through;
+	opacity: 0.5;
+
+	&:hover {
+		text-decoration: line-through;
+	}
+}
+
+.event_date {
+	background-color: #cccccc;
+	color: #D93B26;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	position: relative;
+	text-align: center;
+	transition: 150ms;
+	display: inline-block;
+}
+
+.event_date--value {
+	margin-bottom: 50px;
+	line-height: 80px;
+	font-weight: 600;
+	font-size: 20px;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.event_title {
+	display: inline-block;
+	align-self: center;
+	margin: 0 0 0 20px;
+	text-decoration: underline;
+	color: #cccccc;
+}
+
+.event_description {
+	flex-wrap: nowrap;
+	color: #cccccc;
+	padding: 20px 0 0 40px;
+}
