@@ -1,33 +1,37 @@
 anna_dodson:
-    name: Anna Dodson
+  name: Anna Dodson
 
 will_ellwood:
-    name: Will Ellwood
-    web: http://www.will-ellwood.com
+  name: Will Ellwood
+  web: http://www.will-ellwood.com
 
 jon_couldridge:
-    name: Jon Couldridge
-    web: https://github.com/beforan
-    
+  name: Jon Couldridge
+  web: https://github.com/beforan
+
 eric_varela:
-    name: Eric Varela
-    web: http://www.siliconunicorn.com
-    
+  name: Eric Varela
+  web: http://www.siliconunicorn.com
+
 matt_barker:
-    name: Matt Barker
-    
+  name: Matt Barker
+
 riz_khan:
-    name: Riz Khan
-    web: https://twitter.com/rizbizkits
+  name: Riz Khan
+  web: https://twitter.com/rizbizkits
 
 bal_hayre:
-    name: Bal Hayre
-    web: https://twitter.com/balhayre
+  name: Bal Hayre
+  web: https://twitter.com/balhayre
 
 marmaladegirl:
-    name: Elsa Bartley
-    web: http://www.elsabartley.co.uk
+  name: Elsa Bartley
+  web: http://www.elsabartley.co.uk
+
+chinaza_egbo:
+  name: Chinaza Egbo
+  web: https://www.chinaza.dev
 
 mica_bell:
-    name: Mica Bell
-    web: http://www.twitter.com/micasophiebell
+  name: Mica Bell
+  web: http://www.twitter.com/micasophiebell
