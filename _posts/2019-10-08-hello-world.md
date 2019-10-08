@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "commit-ment issues?"
-date:   2019-10-08 20:27:10 
+date:   2019-10-08 19:27:10 
 author: mica_bell
 categories: community contributions
 ---
