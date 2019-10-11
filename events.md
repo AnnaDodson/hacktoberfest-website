@@ -12,7 +12,7 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
         <!-- HWC1 -->
         <a target="_blank" href="https://www.jvt.me/events/homebrew-website-club-nottingham/2019/10/02/" title="GitHub profile for {{ contributor.login }}" class="event event--done">
             <div class="event_date">
-                <span class="event_date--value">16th</span>
+                <span class="event_date--value">2nd</span>
             </div> 
             <h2 class="event_title">Homebrew Website Club (1/3)
             </h2>
