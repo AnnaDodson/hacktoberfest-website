@@ -27,3 +27,5 @@ The good thing about Hacktoberfest is the community spirit and there are people 
 
 Many projects would benefit from more UX input. When projects are successful it is often because devs are building things for themselves, they are the audience and so they make good products for themselves. But there is so much more opportunity in creating OpenSource projects that can help others, but to do so well you need to understand an audience that isn't you. Getting more UX designers involved in open source would be hugely beneficial for expanding the scope of projects, so the more that can be done to reduce the hurdles of GitHub the better for everyone.
 
+Frances here in 2019. I've never been on Github before but I've learned a little from Elsa's post and now I think I know what a fork is - apparently this is my fork! I'm a coder! Go Hacktoberfest :)
+
