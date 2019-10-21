@@ -10,7 +10,7 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
 <section class="events_list">
     <div class="event_outer">
         <!-- HWC1 -->
-        <a target="_blank" href="https://www.jvt.me/events/homebrew-website-club-nottingham/2019/10/02/" title="GitHub profile for {{ contributor.login }}" class="event event--done">
+        <a target="_blank" href="https://www.jvt.me/events/homebrew-website-club-nottingham/2019/10/02/" title="GitHub profile for {{ contributor.login }}" class="event event--done" data-end-date="2019/10/02">
             <div class="event_date">
                 <span class="event_date--value">2nd</span>
             </div> 
@@ -22,7 +22,7 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
             </p>
         </a>
         <!-- NottsJS -->
-        <a target="_blank" href="https://nottsjs.org" title="GitHub profile for {{ contributor.login }}" class="event">
+        <a target="_blank" href="https://nottsjs.org" title="GitHub profile for {{ contributor.login }}" class="event" data-end-date="2019/10/08">
             <div class="event_date">
                 <span class="event_date--value">8th</span>
             </div> 
@@ -33,7 +33,7 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
             </p>
         </a>
         <!-- TN -->
-        <a target="_blank" href="https://www.technottingham.com/events/tech-nottingham-october-2019" title="Tech Nottingham event page" class="event">
+        <a target="_blank" href="https://www.technottingham.com/events/tech-nottingham-october-2019" title="Tech Nottingham event page" class="event" data-end-date="2019/10/14">
             <div class="event_date">
                 <span class="event_date--value">14th</span>
             </div> 
@@ -44,7 +44,7 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
             </p>
         </a>
         <!-- HWC2 -->
-        <a target="_blank" href="https://www.jvt.me/events/homebrew-website-club-nottingham/2019/10/16/" title="GitHub profile for {{ contributor.login }}" class="event">
+        <a target="_blank" href="https://www.jvt.me/events/homebrew-website-club-nottingham/2019/10/16/" title="GitHub profile for {{ contributor.login }}" class="event" data-end-date="2019/10/16">
             <div class="event_date">
                 <span class="event_date--value">16th</span>
             </div> 
@@ -56,7 +56,7 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
             </p>
         </a>
         <!-- DDD -->
-        <a target="_blank" href="https://www.dddeastmidlands.com" title="GitHub profile for {{ contributor.login }}" class="event">
+        <a target="_blank" href="https://www.dddeastmidlands.com" title="GitHub profile for {{ contributor.login }}" class="event" data-end-date="2019/10/26 18:00">
             <div class="event_date">
                 <span class="event_date--value">26th</span>
             </div> 
@@ -68,7 +68,7 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
             </p>
         </a>
         <!-- HWC2 -->
-        <a target="_blank" href="https://www.jvt.me/events/homebrew-website-club-nottingham/2019/10/30/" title="GitHub profile for {{ contributor.login }}" class="event">
+        <a target="_blank" href="https://www.jvt.me/events/homebrew-website-club-nottingham/2019/10/30/" title="GitHub profile for {{ contributor.login }}" class="event" data-end-date="2019/10/30 19:30:00">
             <div class="event_date">
                 <span class="event_date--value">30th</span>
             </div> 
@@ -81,3 +81,18 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
         </a>
     </div>
 </section>
+
+<script>
+    const events = document.querySelectorAll('.event');
+    const now = new Date();
+
+    // Loop through events
+    events.forEach(event => {
+        const endDate = new Date(event.dataset.endDate);
+
+        // If end date is in the past, add class to style it
+        if (now > endDate) {
+            event.classList.add('event--done');
+        }
+    })
+</script>
