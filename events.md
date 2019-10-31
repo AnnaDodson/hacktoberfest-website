@@ -9,7 +9,8 @@ This page holds a list of all the lovely Hacktoberfest events in Nottingham 🙃
 <section class="events_list">
 
   <div class="event_outer">
-    {% for event in site.data.events sort:date order:descending %}
+    {% assign sorted_events = site.data.events | sort: 'date' | reverse %}
+    {% for event in sorted_events %}
     {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
     {% capture eventtime %}{{ event.date | date: '%s' }}{% endcapture %}
     <a target="_blank" href="{{ event.url }}" title="{{ event.title }}" class="event {% if eventtime < nowunix %}event--done{% endif %}">
