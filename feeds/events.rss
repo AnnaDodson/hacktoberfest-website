@@ -17,8 +17,8 @@ layout:
         <title>{{ event.title | xml_escape }}</title>
         <description>{{ event.description | xml_escape }}</description>
         <pubDate>{{ event.date | date_to_rfc822 }}</pubDate>
-        <link>{{ event.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ event.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <link>{{ event.url }}</link>
+        <guid isPermaLink="true">{{ event.url }}</guid>
       </item>
     {% endfor %}
   </channel>
