@@ -19,7 +19,7 @@ The new LincolnHack was everything we set out for it to be. People met and magic
 
 LincolnHack has been running for 4 years strong, and we’ve stayed true to our guiding principles of building relationships in a supporting and inclusive community. You can show up to LincolnHack not knowing anyone, join a team, and by the end of the weekend be friends for life. And the food we get for the event is incredible. Indeed, this was a conscious decision — great food is a social thing.
 
-n 2018, the Hodge came back to host our event — returning with some of that old LeedsHack magic. We tried out some new ideas (such as Crap Prizes — everyone gets a crap prize), and people left smiling.
+In 2018, the Hodge came back to host our event — returning with some of that old LeedsHack magic. We tried out some new ideas (such as Crap Prizes — everyone gets a crap prize), and people left smiling.
 
 In 2019 we move to a fabulous new building, Mosaic @ Thomas Parker House. You can expect great food (PIES!), fun, and surprises. Our new venue has plenty of breakout spaces and is smack bang in the centre of Lincoln. It’s as if the space was designed for a Hackathon.
 
