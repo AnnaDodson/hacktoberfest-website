@@ -21,6 +21,6 @@ LincolnHack has been running for 4 years strong, and we’ve stayed true to our 
 
 n 2018, the Hodge came back to host our event — returning with some of that old LeedsHack magic. We tried out some new ideas (such as Crap Prizes — everyone gets a crap prize), and people left smiling.
 
-In 2019 we move to a fabulous new building, Mosaic @ Thomas Parker House. You can expect great food (PIES!), fun, and surprises. Our new venue has plenty of breakout spaces, and is smack bang in the centre of Lincoln. It’s as if the space was designed for a Hackathon.
+In 2019 we move to a fabulous new building, Mosaic @ Thomas Parker House. You can expect great food (PIES!), fun, and surprises. Our new venue has plenty of breakout spaces and is smack bang in the centre of Lincoln. It’s as if the space was designed for a Hackathon.
 
 LincolnHack 2019 runs on 16th and 17th November 2019, at Mosaic Lincoln. Doors open at 9am. Please see (LincolnHack.org)[https://lincolnhack.org] for more info.
