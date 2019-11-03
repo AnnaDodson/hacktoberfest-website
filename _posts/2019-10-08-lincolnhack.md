@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LincolnHack is the greatest hack in the East Midlands!"
+title:  "LincolnHack just got bigger!"
 date:   2019-10-08 20:17:00 +0000
 author: rob_willie
 categories: community contributions
