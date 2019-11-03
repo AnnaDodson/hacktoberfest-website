@@ -12,7 +12,7 @@ categories: community contributions
 
 # <center>LincolnHack - Pies not Pizza</center>
 
-The first LincolnHack was held in 2011. It was a very small affair with an operational budget of £500. It was a lot of work to run, mistakes were made, and wasn’t as good as LeedsHack anyway, so we parked our aspirations in favor of attending our favourite hack event.
+The first LincolnHack was held in 2011. It was a very small affair with an operational budget of £150. It was a lot of work to run, mistakes were made, and wasn’t as good as LeedsHack anyway, so we parked our aspirations in favor of attending our favourite hack event.
 
 In 2016, LeedsHack faltered when its main organiser, [the Hodge](https://twitter.com/thehodge), retired from running the event. Concerned that our favourite hackathon was no more, we decided to reboot LincolnHack in LeedsHack’s image while adding some excellent food choices along the way. The most important thing we wanted to achieve was to make LincolnHack about building relationships (like LeedsHack), not organising a tedious networking event trading business cards with people whom you’ll never see again. The new LincolnHack was everything we set out for it to be. People met and magic happened: startups were born, employment opportunities revealed themselves, friends were made, knowledge exchanged, and unusual and interesting things created. From this, a community was born. 
 
