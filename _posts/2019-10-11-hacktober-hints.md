@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Hacktoberfest Hints and Health for Hasty Hubbers"
+date: 2019-10-14 15:58:00 +0100
+author: simon_fish
+categories: community contributions
+---
+
+One thing I'm personally struggling with this year is finding the time to contribute to Hacktoberfest. As a final-year university student with an extra module this side of the year, I think it's going to be really difficult for me to do much at all beyond what I've signed up for, particularly a side job. So far, it's been really difficult to come to terms with it all, I'll be honest. I want to commit to as much as I can take and really push myself, and I've put myself under what is really an unhealthy amount of pressure to do that.
+
+Hacktoberfest is another one of those things, but that's because I really enjoyed it last year and because I'd love to give back to the free software community. It's banded together in some incredibles ways for as long as the tech has been around, bringing us from the days of gargantuan card-fed units in the labs of MIT to the much more accessible world we live in today. Lots of knowledge is free and spreading, and people are using code for all kinds of things, from recipe websites to sewing up the first picture of a black hole we've ever seen. Me? I just added a couple of Faker modules last year...
+
+Sure, those were small pull requests. But they did things that some people are likely to appreciate and use - in particular, developers in the Super Smash Bros. community developing apps, perhaps, to accurately check out hitboxes in the game on a frame-by-frame basis. And better yet, they were a wonderful introduction to the folks surrounding Faker, and another codebase - the degree to which they've got testing figured out for each and every Faker module really wows me, and the ease of adding another one is great. It's a good level of abstraction.
+
+Faker's codebase, at least from the perspective of expanding it any further, is really nice and simple. That made it the perfect place for me to experiment with writing PRs and issues, and getting my hands dirty. It's just one of many projects out there that likely still needs the help of hackers like you and I, and is accessible enough for us to poke around during Hacktoberfest. At the time I started to contribute, it was close to home, too - I'd just recognised that we were seeding something with it back when I was working for UKCloud, and took a look around out of curiosity.
+
+Internally, I had a real dilemma about this. My nasty perfectionist habits were telling me that *no, I did not deserve those five pull requests, because I didn't do anything of real complexity*. Even now, I experience this a lot. I don't know where it comes from, but one of my biggest weaknesses is a sort of ghost that claims I'm not doing anything of value if I'm not doing something totally original or tough. Hacktoberfest was no exception, last year. "Sure, Simon, all you did was run a vim macro on a list from a webpage that you copied and pasted." There was more to it than that - I approached the maintainers, I followed their guide, I signed my commits, I ran the tests against the module...and most of all, I learned. Even if you can sum it up in a way that takes the wind out of it, don't underestimate the power of learning and growing stronger. And if you want to see the kind of value it has...teach someone else! 
+
+Of course, don't feel pressured by the goal of four pull requests, unless you're particularly hungry for a free shirt. Supporting and discussing issues is useful too, and I find that to be a simple yet constructive way of joining in. By answering the bigger questions about the scope of a project and such, you're contributing in a way that probably comes more naturally, but can be just as powerful as any good PR.
+
+My main point, really, is that even if you're short on time, anxious, or both, there are ways to contribute to the wonderful world of free software. The Hacktoberfest website has some resources for finding ways to get started. Go easy on yourself. Best of luck at the halfway point of this Hacktoberfest!
